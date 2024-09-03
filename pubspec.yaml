@@ -14,3 +14,55 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Oblivian Text
+      fonts:
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Black-Italic.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Black.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Bold-Italic.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Bold.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-ExtraBold-Italic.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-ExtraBold.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-ExtraLight-Italic.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-ExtraLight.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Light-Italic.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Light.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Medium-Italic.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Medium.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Regular-Italic.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Semi-Bold-Italic.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Semi-Bold.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Thin-Italic.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-Thin.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-UltraLight-Italic.otf
+        - asset: assets/fonts/Oblivian_Text/Oblivian_Text-UltraLight.otf
+    - family: Brandon Grotesque
+      fonts:
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Black-Italic.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Black.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Bold-Italic.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Bold.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Light-Italic.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Light.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Medium-Italic.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Medium.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Regular-Italic.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Regular.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Thin-Italic.otf
+        - asset: assets/fonts/Brandon_Grotesque/Brandon_Grotesque-Thin.otf
+    - family: Bebas Neue Pro
+      fonts:
+        - asset: assets/fonts/Bebas_Neue_Pro/Bebas_Neue_Pro-Bold-Italic.otf
+        - asset: assets/fonts/Bebas_Neue_Pro/Bebas_Neue_Pro-Bold.otf
+        - asset: assets/fonts/Bebas_Neue_Pro/Bebas_Neue_Pro-Book-Italic.otf
+        - asset: assets/fonts/Bebas_Neue_Pro/Bebas_Neue_Pro-Book.otf 
+        - asset: assets/fonts/Bebas_Neue_Pro/Bebas_Neue_Pro-Italic.otf
+        - asset: assets/fonts/Bebas_Neue_Pro/Bebas_Neue_Pro-Light-Italic.otf
+        - asset: assets/fonts/Bebas_Neue_Pro/Bebas_Neue_Pro-Light.otf
+        - asset: assets/fonts/Bebas_Neue_Pro/Bebas_Neue_Pro-Regular.otf
+        - asset: assets/fonts/Bebas_Neue_Pro/Bebas_Neue_Pro-Thin-Italic.otf
+        - asset: assets/fonts/Bebas_Neue_Pro/Bebas_Neue_Pro-Thin.otf
+    - family: Helvetica Neue LT
+      fonts:
+        - asset: assets/fonts/Helvetica_Neue_LT/Helvetica_Neue_LT.otf
