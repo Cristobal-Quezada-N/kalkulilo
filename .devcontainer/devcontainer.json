@@ -1,0 +1,74 @@
+{
+    "name": "Flutter DevContainer from Dockerfile",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "launch": {
+                    "version": "0.2.0",
+                    "configurations": [
+                        // // Flutter
+                        // {
+                        //     "name": "kalkulilo (Flutter)",
+                        //     "program": "lib/main.dart",
+                        //     "request": "launch",
+                        //     "type": "dart"
+                        // },
+                        // Linux
+                        {
+                            "name": "kalkulilo (Flutter Linux)",
+                            "program": "lib/main.dart",
+                            "deviceId": "linux",
+                            "request": "launch",
+                            "type": "dart"
+                        },
+                        // // Chrome 
+                        // {
+                        //     "name": "kalkulilo (Flutter Chrome)",
+                        //     "program": "lib/main.dart",
+                        //     "deviceId": "chrome",
+                        //     "request": "launch",
+                        //     "type": "dart"
+                        // },
+                        // Web Server
+                        {
+                            "name": "kalkulilo (Flutter Web Server)",
+                            "program": "lib/main.dart",
+                            "deviceId": "web-server",
+                            "request": "launch",
+                            "type": "dart"
+                        },
+                        // // Profile
+                        // {
+                        //     "name": "kalkulilo (Flutter profile mode)",
+                        //     "program": "lib/main.dart",
+                        //     "request": "launch",
+                        //     "type": "dart",
+                        //     "flutterMode": "profile"
+                        // },
+                        // // Release
+                        // {
+                        //     "name": "kalkulilo (Flutter release mode)",
+                        //     "program": "lib/main.dart",
+                        //     "request": "launch",
+                        //     "type": "dart",
+                        //     "flutterMode": "release"
+                        // },
+                        // // Test
+                        // {
+                        //     "name": "kalkulilo (Flutter Tests)",
+                        //     "program": "test",
+                        //     "request": "launch",
+                        //     "type": "dart"
+                        // }
+                    ]
+                }
+            },
+            "extensions": [
+                "dart-code.flutter"
+            ]
+        }
+    }
+}

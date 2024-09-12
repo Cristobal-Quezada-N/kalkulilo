@@ -72,9 +72,11 @@ RUN yes | ./bin/flutter doctor --android-licenses
 # Setup
 
 USER $USER
-WORKDIR /home/$USER
+WORKDIR /home
 
 ENV CHROME_EXECUTABLE /usr/bin/$BROWSER
 ENV PATH $PATH:$ANDROID_HOME/platform-tools:$FLUTTER_HOME/bin
 
 RUN adb start-server
+
+EXPOSE 1234
