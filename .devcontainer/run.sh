@@ -28,6 +28,6 @@ echo -e "build $image_name image\n"
 docker build $project_dir_path/.devcontainer/ -t $image_name || exit 1
 
 container_name="$image_name-$RANDOM"
-docker run --name $container_name -e $enviroment_flag -v $volume_flag -p 1234:1234 -d -it $image_name >/dev/null || exit 1
+docker run --name $container_name -e $enviroment_flag -v $volume_flag -v $project_dir_path:/home/debian/kalkulilo -p 1234:1234 -d -it $image_name >/dev/null || exit 1
 
 echo -e "\ncontainer $container_name created from $image_name image"
