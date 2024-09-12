@@ -2,7 +2,9 @@ FROM debian:bookworm
 
 # Environment Variables
 
-ARG USER=root
+ARG USER=debian
+RUN groupadd -r $USER -g 1000
+RUN useradd -rm $USER -u 1000 -g $USER
 
 ARG BUILD_TOOLS_VERSION=34.0.0
 ARG PLATFORM_VERSION=29
@@ -71,8 +73,7 @@ RUN yes | ./bin/flutter doctor --android-licenses
 
 # Setup
 
-USER $USER
-WORKDIR /home
+WORKDIR /home/$USER
 
 ENV CHROME_EXECUTABLE /usr/bin/$BROWSER
 ENV PATH $PATH:$ANDROID_HOME/platform-tools:$FLUTTER_HOME/bin
